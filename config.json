@@ -1,0 +1,19 @@
+{
+  "listenPort":8080,
+  "destination":{
+    "host":"localhost",
+    "port":8080
+  },
+  "protocol":"http",
+  "clientData":{
+    "userIds":[
+      "you_user_id"
+    ]
+  },
+  "whitelist":[
+    "http://localhost/whitepath"
+  ],
+  "apiRoutes":{
+    "checkIn":"/api/checkIn"
+  }
+}
